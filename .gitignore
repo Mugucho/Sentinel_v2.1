@@ -1,0 +1,28 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+*.venv
+
+# Archivos de variables de entorno
+# ¡MUY IMPORTANTE! Nunca subas tus claves de API a un repositorio público.
+.env
+.env.*
+
+# Caché de Python y archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas de configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos de sistema operativo (macOS)
+.DS_Store
+
+# Carpetas de build y distribución
+build/
+dist/
+*.egg-info/
